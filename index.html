@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tic tac toe</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/sweetalert2/4.0.8/sweetalert2.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/sweetalert2/4.0.8/sweetalert2.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header>
+		<h1 class="text-center">
+			Tic tac toe
+		</h1>
+	</header>
+	<section>
+		<div>
+			<div class="linea">
+				<input class="btn btn-primary btn-lg tic" type="" value="+" id="a1">
+				<input class="btn btn-primary btn-lg tic" type="" value="+" id="a2">
+				<input class="btn btn-primary btn-lg tic" type="" value="+" id="a3">
+			</div>
+			<div class="linea">
+				<input class="btn btn-primary btn-lg tic" type="" value="+" id="b1">
+				<input class="btn btn-primary btn-lg tic" type="" value="+" id="b2">
+				<input class="btn btn-primary btn-lg tic" type="" value="+" id="b3">
+			</div>
+			<div class="linea">
+				<input class="btn btn-primary btn-lg tic" type="" value="+" id="c1">
+				<input class="btn btn-primary btn-lg tic" type="" value="+" id="c2">
+				<input class="btn btn-primary btn-lg tic" type="" value="+" id="c3">
+			</div>
+		</div>
+	</section>
+	<div>
+		<div onclick="stopGame()" class="btn btn-danger btn-block btn-lg">Reset game</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/sweetalert2/4.0.8/sweetalert2.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
